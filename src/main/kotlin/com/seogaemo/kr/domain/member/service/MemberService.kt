@@ -1,6 +1,6 @@
-package com.seogaemo.kr.domain.member.application
+package com.seogaemo.kr.domain.member.service
 
-import com.seogaemo.kr.domain.member.dao.MemberRepository
+import com.seogaemo.kr.domain.member.repository.MemberRepository
 import org.springframework.stereotype.Service
 
 @Service

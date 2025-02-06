@@ -1,6 +1,6 @@
-package com.seogaemo.kr.domain.member.api
+package com.seogaemo.kr.domain.member.controller
 
-import com.seogaemo.kr.domain.member.application.MemberService
+import com.seogaemo.kr.domain.member.service.MemberService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/member")
-class MemberApi(
+class MemberController(
     private val memberService: MemberService
 ) {
     @GetMapping("/{id}")

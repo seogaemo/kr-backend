@@ -1,4 +1,4 @@
-package com.seogaemo.kr.domain.member.domain
+package com.seogaemo.kr.domain.member.entity
 
 import jakarta.persistence.*
 
